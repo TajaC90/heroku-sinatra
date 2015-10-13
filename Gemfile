@@ -4,7 +4,6 @@ ruby "2.2.3"
 gem "sinatra"
 gem "activerecord"
 gem "sinatra-activerecord"
-gem "sqlite3"
 gem "rake"
 gem "sinatra-contrib"
 gem "rack-flash3"
@@ -17,4 +16,3 @@ group :production do
 	gem 'pg'   
 end
 
-require './app' run Sinatra::Application
